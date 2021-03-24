@@ -1,0 +1,131 @@
+﻿/*@import url('https: //fonts.googleapis.com/css?family=Roboto');*/
+
+
+body {
+
+}
+
+.signclass{
+    margin:auto;
+}
+
+.bannerimg {
+    width: 100%;
+    text-align: center;
+    
+}
+.welcometxt {
+    color: #28599D;
+    font-size:22px;
+    text-align: center;
+    font-family:roboto;
+}
+.paragraphtxt {
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    font-family: roboto;
+}
+.paragraphlgtxt {
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    font-family: roboto;
+}
+.bluetxt {
+    color: #28599D;
+    font-size: 16px;
+    text-align: center;
+    font-family: roboto;
+}
+
+
+.custom-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 20px;
+}
+
+    .custom-list li:before {
+        content: '';
+        width: 20px;
+        height: 0px;
+        position: absolute;
+        background-image: url('../Images/bullet_icon_3.svg');
+        background-size: cover;
+        background-position: center;
+        left: 0;
+        top: 50%;
+        transform: translateY(200%);
+    }
+
+
+.steps-vr {
+    margin-bottom: 30px;
+    padding: 0 20px;
+    color: #3E3E3E;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.step1 {
+    width: 50%;
+}
+
+.steps-vr i {
+    width: 45px;
+    float: left;
+    position: relative;
+}
+
+
+.myclass {
+    margin-left: auto;
+}
+
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+
+    .myclass {
+        margin-left: auto;
+    }
+}
+
+@media (min-width:481px) {
+    .myclass {
+        margin-left: 0%;
+    }
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .myclass {
+        margin-left: 25%;
+    }
+}
+
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+
+    .myclass {
+        margin-left: 35%;
+    }
+}
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+
+    .myclass {
+        margin-left: 35%;
+    }
+}
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+
+    .myclass {
+    }
+}
+
+

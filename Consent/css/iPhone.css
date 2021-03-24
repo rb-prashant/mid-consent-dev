@@ -1,0 +1,3891 @@
+﻿
+/* --------------------------------------- iPhone 6, 6S, 7 and 8 -------------------------------------------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .data-details {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+        .data-details p {
+            width: 50%;
+            float: left;
+        }
+
+            .data-details p.text-right {
+                text-align: right;
+                font-weight: bold;
+            }
+
+            .data-details p.text-left {
+                text-align: left;
+            }
+
+    p {
+        color: #636363;
+        font-size: 11pt;
+    }
+
+    h1 {
+        font-size: 15pt;
+        color: #2FC79F;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    header {
+        text-align: center;
+        margin: 5px 10px 10px 7px;
+    }
+
+        header span {
+            position: absolute;
+            left: unset;
+            right: 0;
+            top: 9px;
+            text-align: center;
+            font-size: 10px;
+            color: #6D7074;
+        }
+
+    input[type='text'],
+    input[type='number'],
+    input[type='password'],
+    input[type='tel'],
+    textarea {
+        font-size: 16px;
+        text-indent: 28px;
+        height: 40px;
+        width: 281px;
+        border: 0;
+        border-radius: 0;
+        -webkit-appearance: none;
+    }
+
+    input[type='email'] {
+        font-size: 16px;
+        text-indent: 44px;
+        height: 40px;
+        width: 281px;
+        margin: 10px 10px 9px;
+        outline: 0;
+        border: 0;
+        background-size: 20px;
+        font-style: normal;
+        color: black;
+    }
+
+    input[type='password'] {
+        text-indent: 44px;
+        height: 40px;
+        width: 281px;
+        margin: 10px -27px 9px -9px;
+        outline: 0;
+        font-style: normal;
+        background-size: 20px;
+        border-top: 1px solid #C9C9C9;
+        padding-top: 21px;
+        color: black;
+    }
+
+    input[type='number'] {
+        border: 1px solid #979797;
+        border-radius: 25px;
+        height: 45px;
+    }
+
+    input:focus {
+        outline: none !important;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+    .loader {
+        display: block;
+        position: absolute;
+        left: 50%;
+        margin: auto;
+        top: 13%;
+        z-index: 999;
+        width: 200px;
+        margin-left: -100px;
+    }
+
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s;
+    }
+
+    .mask {
+        background: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9;
+        width: 100vh;
+    }
+
+    img {
+        max-width: 100%;
+        width: auto;
+        height: initial;
+    }
+
+    .divClass {
+        border: 3px solid #ecedf0;
+        padding: 15px;
+        background: #EBEBEB;
+        max-height: 200px;
+    }
+
+    .divClassAfter {
+        margin: 10px 10px;
+        border: 3px solid #ecedf0;
+        padding: 15px;
+        background: #EBEBEB;
+        min-height: 200px;
+    }
+
+    .imgPreview {
+        margin-top: 20px;
+        float: left;
+        margin-left: 20px;
+        max-height: 150px;
+        max-width: 200px;
+        height: 150px;
+        width: 200px;
+    }
+
+    .imgPreview-div {
+        float: left;
+        max-width: 60%;
+        max-height: 127px;
+    }
+
+        .imgPreview-div img {
+            max-width: 100%;
+            max-height: 127px;
+        }
+
+    .img-bg {
+        width: 100%;
+    }
+
+    .cfa-btnUpload, .fileUpload {
+        width: 40%;
+        height: 45px;
+        display: block;
+        color: white;
+        background: #2FC79F;
+        border: none;
+        border-radius: 27pt;
+        font-size: 15pt;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 30px;
+        -webkit-appearance: none;
+        font-weight: 500;
+        -webkit-box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+        -moz-box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+        box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+    }
+
+    .submit-btn {
+        display: block;
+        position: relative;
+        margin-top: 250px;
+    }
+
+    button {
+        width: 40%;
+        height: 45px;
+        display: block;
+        color: white;
+        background: #2FC79F;
+        border: none;
+        border-radius: 27pt;
+        font-size: 15pt;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 3%;
+        -webkit-appearance: none;
+        font-weight: 500;
+        -webkit-box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+        -moz-box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+        box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+    }
+
+    .button-disabled {
+        background: #D1D1D1;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    #ios_button_span {
+        position: absolute;
+        bottom: 22%;
+        left: 0px;
+        right: 0px;
+    }
+
+    .settingsPopup {
+        position: absolute;
+        top: 50%;
+        margin: -159px auto;
+        left: 0;
+        right: 0;
+        background: none;
+        padding: 0px;
+        box-shadow: none;
+        z-index: 99;
+    }
+
+        .settingsPopup .modal-content {
+            margin: auto;
+            width: 70%;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .settingsPopup h1 {
+            text-align: center;
+            margin: -15px -15px 15px;
+            background: #f5f5f5;
+            color: #2FC79F;
+            padding: 12px 0 12px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .settingsPopup select {
+            width: 80%;
+            height: 40px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            padding-left: 5px;
+            margin-left: 25px;
+        }
+
+            .settingsPopup select:focus {
+                font-size: 10pt;
+            }
+
+        .settingsPopup option {
+            font-size: 10pt;
+        }
+
+        .settingsPopup .modal-content input#btnSettings, .settingsPopup .modal-content input#btnLogin, input#btnLocations {
+            white-space: nowrap;
+            width: 150px;
+            height: 40px;
+            display: block;
+            color: white;
+            background: #2FC79F;
+            border: none;
+            border-radius: 27pt;
+            font-size: 13pt;
+            margin: 0 auto;
+            -webkit-appearance: none;
+        }
+
+    .alertBox {
+        position: absolute;
+        top: 55%;
+        margin: -159px auto;
+        left: 0;
+        right: 0;
+        background: none;
+        padding: 0px;
+        box-shadow: none;
+        z-index: 99;
+    }
+
+        .alertBox .modal-content {
+            margin: auto;
+            width: 70%;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .alertBox input[type=submit] {
+            text-align: center;
+            white-space: nowrap;
+            cursor: pointer;
+            height: 36px;
+            border: 1px solid #2FC79F;
+            border-radius: 20px;
+            box-shadow: none;
+            background: #2FC79F;
+            color: #fff;
+            min-width: 108px;
+            width: 20%;
+            margin: 0;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 0;
+            -webkit-appearance: none;
+        }
+
+        .alertBox h1 {
+            font-size: 20px;
+            text-align: center;
+            margin: -15px -15px 15px;
+            background: #f5f5f5;
+            color: #2FC79F;
+            padding: 12px 0 12px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+    .errorBox {
+        position: absolute;
+        top: 55%;
+        margin: -159px auto;
+        left: 0;
+        right: 0;
+        background: none;
+        padding: 0px;
+        box-shadow: none;
+        z-index: 99;
+    }
+
+        .errorBox .modal-content {
+            margin: auto;
+            width: 70%;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .errorBox input[type=submit] {
+            text-align: center;
+            white-space: nowrap;
+            cursor: pointer;
+            height: 36px;
+            border: 1px solid red;
+            border-radius: 20px;
+            box-shadow: none;
+            background: red;
+            color: #fff;
+            min-width: 108px;
+            width: 20%;
+            margin: 0;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 0;
+            -webkit-appearance: none;
+        }
+
+        .errorBox h1 {
+            font-size: 20px;
+            text-align: center;
+            margin: -15px -15px 15px;
+            background: #f5f5f5;
+            color: red;
+            padding: 12px 0 12px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .errorBox p {
+            color: red;
+        }
+
+    .mt50 {
+        margin-top: 50px;
+    }
+
+    .mt100 {
+        margin-top: 100px;
+    }
+
+    .div-margin {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .loginIcon1 {
+        position: absolute;
+        width: 20px;
+        left: 0;
+        right: 0;
+        margin-left: 46px;
+        margin-top: 20px;
+    }
+
+    .loginIcon2 {
+        position: absolute;
+        width: 20px;
+        left: 0;
+        right: 0;
+        margin-left: 46px;
+        margin-top: 34px;
+    }
+
+    .header-div {
+        border-bottom: 1px solid #D1D1D1;
+        padding-left: 5px;
+    }
+
+    .outer-circle {
+        border: 1px solid red;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 30px;
+    }
+
+    .inner-circle {
+        border: 7px solid #90EE90;
+        height: 120px;
+        width: 120px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 30px;
+    }
+
+    .segment-name {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 71px;
+    }
+
+    .closebtn {
+        height: 20px;
+        float: right;
+        margin-top: -32px;
+        margin-right: 33px;
+    }
+
+    #divRecDetails h1, #divDocDetails h1, #divSelfieDetails h1 {
+        /*margin-top: 70px;*/
+        padding-top: 15px;
+    }
+
+    /******************************************CSS for welcome screen************************************/
+    #divWelcome {
+        text-align: center;
+        background-image: url(../Images/Gradient@2x.png);
+        background-repeat: repeat;
+        height: 100vh;
+        /*display: block;*/
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        background-size: cover;
+        z-index: -9;
+    }
+
+    .content {
+        position: fixed;
+        top: 110px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        color: white;
+    }
+
+    #divWelcome img#imgLogo2 {
+        width: 190pt;
+    }
+
+    #divWelcome p {
+        margin: 69px 0 100px;
+        color: #979797;
+        font-weight: 300;
+    }
+
+    #divWelcome span {
+        color: #979797;
+        font-weight: 400;
+    }
+
+    #divWelcome button {
+        border-radius: 35px;
+        background-color: transparent;
+        width: 74%;
+        height: 60px;
+        bottom: 84px;
+        position: fixed;
+        right: 0;
+        color: #fff;
+        padding: 0;
+        border: 2px solid #fff;
+    }
+
+        #divWelcome button:focus {
+            outline: none;
+        }
+
+    #divWelcome .content p {
+        margin-bottom: 50px;
+    }
+
+    #divWelcome .consentBtn {
+        margin-top: 22%;
+        bottom: 22% !important;
+    }
+
+    /********************************************CSS for login screen**********************************/
+    #divLogin {
+        text-align: center;
+        text-align: center;
+        background-image: url(../Images/home-bg.jpg);
+        height: 100vh;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        background-size: cover;
+        z-index: -9;
+    }
+
+    #divLoginMask {
+        position: relative;
+    }
+
+        #divLoginMask h1 {
+            padding-top: 50px;
+            margin-bottom: -2px;
+        }
+
+    #divLogin button {
+        margin-top: 100px;
+        position: relative;
+        bottom: unset;
+    }
+
+    #divLogin input#btnLogin:focus {
+        outline: none;
+    }
+
+    #divLoginMask {
+        background-color: white !important;
+        height: 100vh;
+        margin: 42px 11px;
+        border-radius: 7px;
+    }
+
+    #divLogin input[type="email"]:focus {
+        border: none;
+    }
+
+    #divLogin a {
+        float: right;
+        margin-right: 32px;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #636363;
+    }
+
+    #divLogin input[type="text"] {
+        text-indent: 44px;
+        height: 40px;
+        width: 281px;
+        margin: 10px -27px 9px -9px;
+        outline: 0;
+        font-style: normal;
+        background-size: 20px;
+        border-top: 1px solid #C9C9C9;
+        padding-top: 21px;
+        color: black;
+    }
+
+    .material-icons {
+        font-size: 16px;
+    }
+    /***************************************CSS for consent screen************************************/
+    #divConsent {
+        text-align: center;
+        /*background-image: url(../Images/home-bg.jpg);*/
+        height: 100vh;
+        /*position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        width: 100vw;*/
+        background-size: cover;
+        z-index: -9;
+    }
+
+    #divConditions {
+        background-color: white !important;
+        height: 200px;
+        margin: 42px 11px;
+        border-radius: 7px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: -60px;
+    }
+
+        #divConditions p {
+            font-size: 12pt;
+            text-align: justify;
+            margin-top: 20px;
+            margin-left: 0px;
+            /*padding: 0 17px 0 25px;*/
+            padding: 0 27px 0 57px;
+            display: inline-block;
+            color: #4A4A4A;
+        }
+
+    input[type="checkbox"] {
+        float: left;
+        margin-right: 15px;
+        margin-top: -7px;
+        width: 23px;
+        height: 40px;
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 20px;
+        margin-left: 20px;
+        background-color: white;
+        border: 1px solid #2FC79F;
+    }
+
+    #divConditions a {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    #buttons {
+        text-align: center;
+        border-top: 1px solid darkgrey;
+        margin-top: 10px;
+    }
+
+    #btnStartProcess, #btnCapturePassportFront {
+        bottom: 3%;
+    }
+
+    #btnCancel {
+        height: 55px;
+        width: 240px;
+        background-color: #9B9B9B;
+
+        bottom: 20%;
+    }
+
+    #btnContinue {
+        height: 55px;
+        width: auto;
+        position: initial;
+        bottom: 20%;
+    }
+
+    #divNotice {
+        margin: 0;
+        height: 98vh;
+    }
+
+        #divNotice h1 {
+            text-align: left;
+            margin-left: 21px;
+            margin-bottom: 0px;
+        }
+
+        #divNotice p {
+            text-align: justify;
+            padding: 0 6% 0;
+            margin-top: 0;
+            margin-bottom: 5%;
+            color: #6A6A6A;
+        }
+
+    #btnCloseNotice {
+        height: 20px;
+        float: right;
+        margin-top: -32px;
+        margin-right: 33px;
+    }
+
+    .longLine {
+        width: 310px;
+        margin-left: 22px;
+    }
+
+    #divNotice {
+        background: #fff;
+        padding: 1% 4%;
+        position: relative;
+    }
+
+        #divNotice #btnCloseNotice {
+            top: 9%;
+            right: 0%;
+            position: absolute;
+            margin-top: -24px;
+            margin-right: 33px;
+            width: 20px;
+        }
+
+        #divNotice .mt60 {
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        #divNotice .acceptDesclineDiv {
+            width: 100%;
+            position: fixed;
+            bottom: 10%;
+            left: 0;
+        }
+
+        #divNotice .consentDiv {
+            height: auto;
+            overflow-y: auto;
+            max-height: 65vh;
+        }
+
+        #divNotice .consentCheck {
+            padding: 1% 10%;
+        }
+
+            #divNotice .consentCheck .checkbox_div {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+                #divNotice .consentCheck .checkbox_div input {
+                    position: initial;
+                    float: none;
+                    margin-left: 0;
+                    width: 17px;
+                    height: 40px;
+                    margin-top: -10px;
+                    margin-right: 5px;
+                }
+
+            #divNotice .consentCheck .checkbox_text {
+                display: inline-block;
+                width: 85%;
+                text-align: justify;
+                color: #6A6A6A;
+                font-size: 11pt;
+            }
+
+    .longLine_hr {
+        border-top-color: #eee;
+        border-bottom-color: white;
+    }
+
+    #divNotice h1 {
+        color: #2FC79F !important;
+        font-size: 15pt;
+        font-weight: 500;
+    }
+
+    /**************************************CSS for Welcome screen*************************************/
+    #divStart {
+        margin-top: 30px;
+    }
+
+        #divStart h1 {
+            margin-bottom: 20px;
+        }
+
+            #divStart h1:after {
+                content: "";
+                display: block;
+                width: 35px;
+                height: 1px;
+                background-color: #8B8B8B;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+
+        #divStart p {
+            margin: 0;
+            font-weight: 500;
+        }
+
+        #divStart span {
+            text-align: justify;
+        }
+
+    .infoIcon {
+        text-align: right;
+        margin-right: 20px;
+        margin-top: -10px;
+    }
+
+        .infoIcon img {
+            height: 35px;
+        }
+
+    /*steps*/
+    .steps-vr {
+        margin-bottom: 46px;
+        padding: 0 20px;
+        color: #636363;
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        min-height: 45px;
+    }
+
+        .steps-vr i {
+            width: 45px;
+            padding-right: 20px;
+            float: left;
+            position: relative;
+        }
+
+            .steps-vr i:after {
+                content: url(../Images/Dashline2-v@3xV.png);
+                width: 3px;
+                position: absolute;
+                max-height: 36px;
+                overflow: hidden;
+                top: 50px;
+                text-align: center;
+                left: 20px;
+            }
+
+            .steps-vr i.active:after {
+                content: url(../Images/Dashline-V@3x.png);
+            }
+
+        .steps-vr.step2 {
+            margin-bottom: 32px;
+        }
+
+        .steps-vr.step4 i:after {
+            display: none;
+        }
+
+    /*--------horizontal steps---------*/
+    .steps-hr {
+        padding: 0 5px;
+        color: #636363;
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        min-height: 45px;
+        display: inline-block;
+    }
+
+        .steps-hr i {
+            width: 38px;
+            padding-right: 35px;
+            float: left;
+            position: relative;
+        }
+
+            .steps-hr i:after {
+                content: '';
+                background-image: url(../Images/DashLine2@2x.png);
+                position: absolute;
+                max-width: 38px;
+                overflow: hidden;
+                text-align: center;
+                height: 3px;
+                width: 38px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                z-index: 0;
+                top: 17px;
+                left: 45px;
+            }
+
+            .steps-hr i.active:after {
+                background-image: url(../Images/DashLine2@2x.png);
+            }
+
+            .steps-hr i.passed:after {
+                background-image: url(../Images/DashLine@2x.png);
+                /*opacity: 0.5;*/
+            }
+
+        .steps-hr.step4 i {
+            padding-right: 0px;
+        }
+
+            .steps-hr.step4 i:after {
+                display: none;
+            }
+
+    .small-img {
+        width: 120px;
+    }
+
+    #divDocUpload .steps-hr i img {
+        margin-top: 0px !important;
+    }
+
+    .steps-hr i.passed img {
+        /*opacity: 0.5;*/
+    }
+    /*--------horizontal steps ends---------*/
+    /***************************************CSS for Document selection screen******************************/
+    #documentDiv {
+        position: fixed;
+        bottom: -19px;
+        border: 1px solid #D4D9DF;
+        border-radius: 9px;
+        margin: 12px;
+        background-color: white;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+    }
+
+    #divDocumentType {
+        background: none;
+    }
+
+        #divDocumentType .input-box {
+            width: 100px;
+            text-align: center;
+            margin-right: -10px;
+        }
+
+        #divDocumentType span {
+            text-align: left;
+            width: 100%;
+            /*padding: 0px 15px;*/
+            box-sizing: border-box;
+            min-height: 100%;
+            font-size: 16px;
+            color: #636363;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+    input#btnLicense {
+        width: 50px;
+    }
+
+    input#btnPassport, input#id2 {
+        height: 42px;
+    }
+
+    .width33 {
+        font-size: 10pt;
+        display: table;
+        padding: 18px 2px;
+        border-top: 1px solid #D4D9DF !important;
+    }
+
+        .width33 span {
+            display: block;
+            text-align: center;
+            position: relative;
+        }
+
+    /*div.width33 span:after {
+        content: '';
+        background: url(../img/play-symbol.png) center center no-repeat;
+        background-size: 60%;
+        height: 52px;
+        width: 24px;
+        display: block;
+        position: absolute;
+        right: -10px;
+        top: 0;
+    }*/
+
+    #divLocation {
+        margin-bottom: 10px;
+    }
+
+    /*********************************************CSS for document div start********************************/
+    #divDocUpload, #divSelfieTutorial {
+        text-align: center;
+        font-size: 17pt;
+        margin-top: 20px;
+    }
+
+        #divDocUpload img, #divSelfieTutorial img {
+            /*margin-top: 10px;*/
+        }
+
+        #divDocUpload p, #divSelfieTutorial p {
+            position: absolute;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 330px;
+        }
+    /*********************************************CSS for document upload screen****************************/
+    #divDocumentUpload span {
+        font-weight: normal;
+        color: #6D7074;
+        margin-top: 35px;
+        font-size: 20px;
+        padding: 0 22px;
+        display: inline-block;
+    }
+
+    #divDocumentUpload p {
+        font-size: 100%;
+        padding: 0 10%;
+        margin: 5% 0;
+    }
+
+    .main-outer-div {
+        background: #F9F9F9;
+        /*margin-top: 90px;*/
+        padding-bottom: 3px;
+        border-bottom: 1px solid #D1D1D1;
+    }
+
+    .innerDiv {
+        background: #F3F3F3;
+        height: 200px;
+        width: 100%;
+        border-radius: 7px;
+        border: 2px solid white;
+    }
+
+    /*#divDocumentUpload button {
+        bottom: 10px;
+    }*/
+
+    #passport, #passportFlash, #license, #licenseBack, #licenseFlash {
+        /*margin-top: 34px;*/
+        display: inline-block;
+        padding: 5px 35px;
+    }
+
+    #selfieReview {
+        font-size: 16pt;
+        padding: 0 10%;
+        margin: 5% 0;
+    }
+
+    .side-Indicator {
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        padding: 5px;
+        width: 50%;
+        height: 30px;
+        left: 0;
+        right: 0;
+        margin: 11px auto;
+        background-color: #fff;
+    }
+
+    #divPassport .side-Indicator {
+        width: 27%;
+    }
+
+    #divPassport .active-side {
+        width: 100%;
+    }
+
+    #divPassport .slideThree {
+        width: 27%;
+    }
+
+    #divPassport label {
+        width: 90%;
+    }
+
+    #divPassport input[type=checkbox]:checked + label {
+        left: 5px;
+    }
+
+    .tile {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .tab-pane {
+        padding: 15px;
+        height: 80px;
+    }
+
+    .nav-tabs {
+        position: relative;
+        border: none !important;
+        background-color: #fff;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+        display: inline-block;
+        border-radius: 20px;
+    }
+
+        .nav-tabs > li {
+            float: left;
+            position: relative;
+            display: block;
+        }
+
+    .nav {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .tab-content > .tab-pane {
+        display: none;
+    }
+
+    .tab-content > .active {
+        display: block;
+    }
+
+    .nav-tabs li {
+        margin: 0px;
+    }
+
+        .nav-tabs li a {
+            position: relative;
+            padding: 11px 27px !important;
+            font-size: 16px;
+            border: none !important;
+            color: #333;
+            margin: 0 4px;
+            display: inline-block;
+            min-width: 51px;
+            text-decoration: none;
+        }
+
+    .nav-tabs a:hover {
+        background-color: #fff !important;
+        border: none;
+    }
+
+    .slider {
+        display: inline-block;
+        width: 102px !important;
+        height: 33px;
+        border-radius: 22px;
+        background-color: #2FC79F;
+        position: absolute;
+        z-index: 1;
+        bottom: 2px;
+        transition: all .4s linear;
+        margin: 0 6px;
+        top: 4px;
+    }
+
+    .nav-tabs .active a {
+        background-color: transparent !important;
+        border: none !important;
+        color: #fff !important;
+        z-index: 9;
+    }
+
+
+    /* end .slideThree */
+
+    .active-side {
+        background: #2FC79F;
+        border-radius: 25px;
+        height: 30px;
+        width: 50%;
+        padding: 0px;
+        color: white;
+        float: left;
+        line-height: 32px;
+        box-shadow: 0 2px 6px #a29999;
+    }
+
+    .inactive-side {
+        background-color: transparent;
+        border-radius: 25px;
+        height: 30px;
+        width: 50%;
+        padding: 0px;
+        color: #6D7074;
+        float: left;
+        line-height: 32px;
+    }
+
+    #imgCamIcon, #imgCamIcon2, #imgCamIcon3 {
+        /*height:200px;*/
+    }
+
+    #imgCamIcon1, #imgCamIcon4 {
+        height: 60px;
+        margin-top: 65px;
+        margin-left: 50px;
+    }
+
+    #imgCamIcon5 {
+        height: 60px;
+        margin-top: 93px;
+    }
+
+    #imgFlashIcon, #imgFlashIcon1 {
+        float: right;
+        margin-top: 16px;
+        margin-right: 10px;
+        height: 32px;
+    }
+
+    .user-image {
+        max-height: 200px;
+        /*border-radius: 7px;*/
+        margin: 0 auto;
+    }
+
+    #divDocUpload {
+        margin-top: 20px;
+    }
+
+    .capture-button {
+        right: unset;
+        margin-left: 30px;
+    }
+
+    .proceed-button {
+        left: unset;
+        margin-right: 30px;
+    }
+    /*********************************************CSS for take selfie screen********************************/
+    #captureSelfie p {
+        padding: 0 10%;
+        margin: 5% 0;
+        font-size: 16pt;
+    }
+
+    .selfie-inner-div {
+        background: #F3F3F3;
+        height: 248px;
+        border-radius: 7px;
+        border: 2px solid white;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #btnSkipSelfie {
+        background: #D1D1D1;
+        bottom: 30px;
+    }
+
+    .selfieDivClass {
+        border: 3px solid #ecedf0;
+        padding: 15px;
+        background: #EBEBEB;
+    }
+
+    #btnSelfieProceed {
+        bottom: 30px;
+    }
+    /*********************************************CSS for selfie review screen******************************/
+    #divReviewSelfie {
+        text-align: center;
+    }
+
+        #divReviewSelfie button {
+            bottom: 10px;
+        }
+
+    #processSelfie h1 {
+        margin-bottom: 50px;
+    }
+
+    #imgCapturedSelfie {
+        height: 264px;
+        border-radius: 50%;
+        margin: 20px auto;
+        width: 56%;
+    }
+
+    /*#btnRetakeSelfie {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 90px;
+        text-decoration: unset;
+        color: #2FC79F;
+    }*/
+
+    /*#btnProceedSelfie {
+        bottom: 30px;
+    }*/
+    /******************************************CSS for phone number screen***********************************/
+    #divSendConfirmCode h1 {
+        margin-bottom: 30px;
+    }
+
+    #divSendConfirmCode input[type='text'] {
+        text-align: center;
+        border: 1px solid #979797;
+        border-radius: 28px;
+        height: 50px;
+        text-indent: 0;
+    }
+
+    #divSendConfirmCode p {
+        padding: 20PX 22px;
+    }
+
+    #btnSkipCode {
+        color: white;
+        background: #D1D1D1;
+        border: none;
+        border-radius: 27pt;
+        font-size: 15pt;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 126px;
+        -webkit-appearance: none;
+    }
+    /******************************************CSS for verification code screen******************************/
+    #divConfirmCode p {
+        padding: 20PX 22px;
+    }
+
+    #divConfirmCode a {
+        margin: 0 auto;
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        bottom: 130px;
+        text-decoration: unset;
+        color: #2FC79F;
+    }
+
+    #divConfirmCode input[type='number'] {
+        text-align: center;
+        letter-spacing: 10px;
+    }
+
+    #divConfirmCode input[type='text'] {
+        text-align: center;
+        letter-spacing: 10px;
+        border: 1px solid #979797;
+        border-radius: 28px;
+        height: 45px;
+        text-indent: 0;
+    }
+
+    .footer {
+        position: relative;
+        bottom: unset;
+        margin-top: 100px;
+    }
+
+    /*****************************************CSS for processing screen*************************************/
+    .child-div-active {
+        background: #2FC79F;
+        /*background:url('../Images/gif-load.gif');*/
+        height: 55px;
+        color: white !important;
+        margin: 0 40px 30px;
+        text-align: left;
+    }
+
+        .child-div-active p {
+            color: white;
+            padding: 19px;
+        }
+
+    .child-div-inactive {
+        background: #D9D9D9;
+        height: 55px;
+        color: white !important;
+        margin: 0 40px 30px;
+        text-align: left;
+    }
+
+        .child-div-inactive p {
+            color: white;
+            position: absolute;
+            padding: 5px 19px;
+            min-width: 250px;
+        }
+
+    .child-div-half-active {
+        /*background: #2FC79F;*/
+        background: url('../Images/gif-load.gif');
+        height: 55px;
+        background-size: 343px 55px;
+        color: white !important;
+        margin: 0 90px 0 0;
+        text-align: left;
+    }
+
+        .child-div-half-active p {
+            color: white;
+            padding: 19px;
+        }
+
+    #imgProcessing {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        height: 50px;
+    }
+
+    #imgCheck {
+        float: right;
+        margin-top: -51px;
+        margin-right: 13px;
+        height: 15px;
+    }
+
+    .mt60 {
+        margin-top: 60px;
+    }
+    /*****************************************CSS for results screen****************************************/
+    #divResults {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+        #divResults h5 {
+            text-align: center;
+            color: grey;
+            margin-top: 14px;
+            margin-bottom: 10px;
+        }
+
+        #divResults span {
+            font-weight: normal;
+            text-align: center;
+            color: #37B81A;
+            font-size: 12pt;
+            letter-spacing: 4px;
+        }
+
+    #resultContent img {
+        height: 70px;
+        margin-top: -25px;
+    }
+
+    #transMessage {
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    #btnViewDetails {
+        width: 65%;
+        position: fixed;
+        bottom: -90px;
+    }
+
+    #btnDone {
+        width: 65%;
+        border-radius: 27pt;
+        background-color: transparent;
+        bottom: -160px;
+        position: fixed;
+        color: #2FC79F;
+        border: 1px solid #2FC79F;
+    }
+
+    .transactionId {
+        border-radius: 10px;
+        height: 74px;
+        margin: 0 35px;
+        text-align: center;
+        background-color: #EAFFE6;
+        padding: 5px;
+    }
+
+        .transactionId h5 {
+            margin-top: 10px;
+        }
+
+    .short-line {
+        margin-top: -5px;
+    }
+
+    /*****************************************CSS for transaction details screen****************************************/
+    #imgSegmentName {
+        width: 100px;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        right: 0;
+        margin: -10px auto;
+    }
+
+    .transaction {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 170px;
+        font-weight: 600;
+        color: #2FC79F;
+        text-align: center;
+    }
+
+    .transaction-details {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 154px;
+        font-weight: 600;
+        color: #2FC79F;
+        text-align: center;
+    }
+
+    .details {
+        position: relative;
+        top: 180px;
+        left: 0;
+        right: 0;
+        margin: 7px 35px;
+        border-top: 1px solid #D4D9DF !important;
+    }
+
+    #divTransactionDetails button {
+        bottom: 105px;
+        width: 60%;
+        background: #2FC79F url('../Images/refresh.png') 15px 15px no-repeat;
+        padding-left: 20px;
+    }
+
+    .details:last-child {
+        border-bottom: 1px solid #D4D9DF !important;
+    }
+
+    .details p {
+        text-align: left;
+        margin: 15px 20px 4px;
+        font-weight: bold;
+    }
+
+    .details span {
+        text-align: left;
+        display: block;
+        font-size: 12px;
+    }
+
+        .details span:last-child {
+            margin-bottom: 15px;
+        }
+
+        .details span:after {
+            content: '';
+            background: url(../Images/play-symbol.png) center center no-repeat;
+            background-size: 60%;
+            height: 52px;
+            width: 24px;
+            display: block;
+            position: absolute;
+            right: 12px;
+            top: 15px;
+        }
+
+    .img-result {
+        float: left;
+        width: 40px;
+        margin-left: 10px;
+        margin-top: 18px;
+        margin-right: 20px;
+    }
+
+    #divCancel {
+        border-top: 1px solid #D4D9DF !important;
+    }
+
+        #divCancel p, #documentDiv p {
+            font-weight: bold;
+            color: #4A90E2;
+            padding: 14px 0;
+        }
+
+    #imgIDType {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 232px;
+        margin: 0 auto;
+        height: 70px;
+    }
+
+    #imgDocFront, #imgDocBack {
+        height: 180px;
+        margin: 40px 0 0 0;
+    }
+
+    .selfie-circle {
+        margin: 0 auto 80px;
+        border: 4px solid #2FC79F;
+        border-radius: 50%;
+        height: 120px;
+        width: 120px;
+        position: relative;
+        box-sizing: border-box;
+        line-height: 50px;
+    }
+
+        .selfie-circle p {
+            font-size: 50px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -28px;
+        }
+
+        .selfie-circle span {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 63px;
+        }
+
+    .img-selfie-right {
+        height: 150px;
+        max-height: 200px;
+    }
+
+    .img-doc-left {
+        height: 150px;
+        max-height: 200px;
+    }
+
+    .w50 {
+        width: 50%;
+        padding: 30px;
+        box-sizing: border-box;
+        float: left;
+    }
+
+        .w50 p {
+            color: #2FC79F;
+        }
+
+    .checkbox-img {
+        display: block;
+        position: relative;
+        /*padding-bottom: 20px;*/
+    }
+
+        .checkbox-img img {
+            border: 1px solid #87fe00;
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            padding: 7px;
+            margin: 0 auto;
+            left: 50%;
+            top: 0%;
+            display: inline-block;
+            transform: translate(-50%, -50%);
+        }
+
+    #selfieMatchScore {
+        font-size: 15pt;
+        color: #37B81A;
+    }
+
+        #selfieMatchScore span {
+            font-size: 12pt;
+            color: #2FC79F;
+        }
+
+    .selfie-details-div {
+        background: #F3F3F3;
+        height: 250px;
+        width: 100%;
+    }
+
+    /* #divSelfieDetails button {
+        bottom:-90px;
+    }*/
+
+    .details-div {
+        background: #F3F3F3;
+        height: 290px;
+        width: 100%;
+    }
+
+    #divDocDetails button {
+        bottom: -90px;
+    }
+
+    #divRecDetails button {
+        bottom: -410px;
+    }
+
+    #divDocDetails p {
+        font-size: 16pt;
+        color: #37B81a;
+    }
+
+    /********************************************New Results Screen*********************************************/
+    #divResultScreen {
+        text-align: center;
+        margin-top: 30px;
+        height: 92vh;
+    }
+
+    .oval-main {
+        box-sizing: border-box;
+        height: 174.5px;
+        width: 174.5px;
+        /*border: 0.5px dashed #4A90E2;*/
+        border-radius: 50%;
+        margin: 11px auto;
+    }
+
+    .oval-2 {
+        box-sizing: border-box;
+        height: 155px;
+        width: 155px;
+        /*border: 1px solid #4A90E2;*/
+        border-radius: 50%;
+        margin: 9px auto;
+    }
+
+    .oval-3 {
+        box-sizing: border-box;
+        height: 143px;
+        width: 143px;
+        /*border: 7px solid #4A90E2;*/
+        border-radius: 50%;
+        margin: 5px auto;
+    }
+
+        .oval-3 p {
+            height: 50px;
+            width: 98px;
+            color: #000000;
+            font-family: Montserrat;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+            margin: 45px auto;
+        }
+
+    .transactionid-block {
+        border-top: 0.5px solid #DBDBDB;
+        border-bottom: 0.5px solid #DBDBDB;
+        margin: 40px 50px 0;
+    }
+
+        .transactionid-block p {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .transactionid-block span {
+            color: #2FC79F;
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -0.66px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+    #btnFinishProcess {
+        height: 55px;
+        width: 250px;
+    }
+
+    #divMiscDetails button {
+        bottom: -90px;
+    }
+
+    #btnRestartProcess {
+        height: 55px;
+        width: 140px;
+        background-color: #9B9B9B;
+        left: 6vh;
+        right: auto;
+    }
+
+    #btnRescanProcess {
+        height: 55px;
+        width: 140px;
+        right: 6vh;
+        left: auto;
+    }
+
+    #segmentMessage {
+        font-size: 14px;
+        margin-top: 20px;
+        color: #4A4A4A;
+        padding: 0 10%
+    }
+
+    #btnYes {
+        height: 80px;
+        width: 50%;
+        float: left;
+        border: none;
+        border-top: 1px solid darkgrey;
+        background: white;
+        font-size: 14pt;
+        font-weight: bold;
+        color: #9B9B9B;
+        position: static;
+        border-radius: 0;
+        margin-top: 10px;
+    }
+
+    #btnNo {
+        height: 80px;
+        width: 50%;
+        float: left;
+        border: none;
+        background: white;
+        font-size: 14pt;
+        font-weight: bold;
+        color: #9B9B9B;
+        position: static;
+        border-radius: 0;
+        border-left: 1px solid darkgrey;
+        border-top: 1px solid darkgrey;
+        margin-top: 10px;
+    }
+
+    #divConfirmReprocess {
+        background-color: white !important;
+        margin: 102px 10px;
+        border-radius: 7px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: -102px;
+        z-index: 99;
+    }
+
+        #divConfirmReprocess p {
+            padding: 10px 30px;
+            text-align: center;
+            font-size: 12pt;
+        }
+
+    .bar-effect {
+        position: relative;
+        background-color: #2FC79F;
+        z-index: 2;
+        height: 100%;
+        transition-duration: 3s;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    p {
+        color: #636363;
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 15pt;
+        color: #2FC79F;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    input[type='text'],
+    input[type='number'],
+    input[type='password'],
+    input[type='tel'],
+    textarea {
+        font-size: 16px;
+        text-indent: 28px;
+        height: 40px;
+        width: 281px;
+        border: 0;
+        border-radius: 0;
+        -webkit-appearance: none;
+    }
+
+    input:focus {
+        outline: none !important;
+    }
+
+    input[type='email'] {
+        font-size: 16px;
+        text-indent: 44px;
+        height: 20px;
+        width: 281px;
+        margin: 10px 10px 9px;
+        outline: 0;
+        border: 0;
+        background-size: 20px;
+        font-style: normal;
+        color: black;
+    }
+
+    input[type='password'] {
+        text-indent: 44px;
+        height: 20px;
+        width: 281px;
+        margin: 10px -27px 9px -9px;
+        outline: 0;
+        font-style: normal;
+        background-size: 20px;
+        border-top: 1px solid #C9C9C9;
+        padding-top: 30px;
+        color: black;
+    }
+
+    input[type='number'] {
+        border: 1px solid #979797;
+        border-radius: 25px;
+        height: 45px;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+    .loader {
+        display: block;
+        position: absolute;
+        left: 50%;
+        margin: auto;
+        top: 13%;
+        z-index: 999;
+        width: 200px;
+        margin-left: -100px;
+    }
+
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s;
+    }
+
+    .mask {
+        background: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9;
+        /* width:100vh;*/
+    }
+
+    img {
+        max-width: 100%;
+        width: auto;
+        height: initial;
+    }
+
+    .mt50 {
+        margin-top: 50px;
+    }
+
+    .mt100 {
+        margin-top: 100px;
+    }
+
+    .mt30 {
+        margin-top: 30px;
+    }
+
+    .div-margin {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .loginIcon1 {
+        position: absolute;
+        width: 20px;
+        left: 0;
+        right: 0;
+        margin-left: 177px;
+        margin-top: 7px;
+    }
+
+    .loginIcon2 {
+        position: absolute;
+        width: 20px;
+        left: 0;
+        right: 0;
+        margin-left: 177px;
+        margin-top: 34px;
+    }
+
+    .header-div {
+        border-bottom: 1px solid #D1D1D1;
+        padding-left: 5px;
+    }
+
+    .outer-circle {
+        border: 1px solid red;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 30px;
+    }
+
+    .inner-circle {
+        border: 7px solid #90EE90;
+        height: 120px;
+        width: 120px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 30px;
+    }
+
+    .segment-name {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 71px;
+    }
+
+    .closebtn {
+        height: 14px;
+        float: right;
+        margin-top: -19px;
+        margin-right: 33px;
+    }
+
+    #divRecDetails h1, #divDocDetails h1, #divSelfieDetails h1 {
+        /*margin-top: 35px;*/
+        padding-top: 15px;
+    }
+
+    #divRecDetails .mt50, #divDocDetails .mt50, #divSelfieDetails .mt50 {
+        margin-top: 0px;
+    }
+
+    button {
+        width: 30%;
+        height: 50px;
+        display: block;
+        color: white;
+        background: #2FC79F;
+        border: none;
+        border-radius: 27pt;
+        font-size: 15pt;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 3%;
+        -webkit-appearance: none;
+        font-weight: 500;
+        -webkit-box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+        -moz-box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+        box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+    }
+
+    .cfa-btnUpload, .fileUpload {
+        width: 30%;
+        height: 50px;
+        display: block;
+        color: white;
+        background: #2FC79F;
+        border: none;
+        border-radius: 27pt;
+        font-size: 15pt;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -40px;
+        -webkit-appearance: none;
+        font-weight: 500;
+        -webkit-box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+        -moz-box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+        box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+    }
+
+    .submit-btn {
+        display: block;
+        position: relative;
+        margin-top: 200px;
+    }
+
+    .button-disabled {
+        width: 30%;
+        height: 50px;
+        display: block;
+        color: white;
+        background: #D1D1D1;
+        border: none;
+        border-radius: 27pt;
+        font-size: 15pt;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 3%;
+        -webkit-appearance: none;
+        font-weight: 500;
+        -webkit-box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+        -moz-box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+        box-shadow: 0px 13px 63px -16px rgba(0,0,0,0.32);
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    .settingsPopup {
+        position: absolute;
+        top: 50%;
+        margin: -159px auto;
+        left: 0;
+        right: 0;
+        background: none;
+        padding: 0px;
+        box-shadow: none;
+        z-index: 99;
+    }
+
+        .settingsPopup .modal-content {
+            margin: auto;
+            width: 40%;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .settingsPopup h1 {
+            text-align: center;
+            margin: -15px -15px 15px;
+            background: #f5f5f5;
+            color: #2FC79F;
+            padding: 12px 0 12px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .settingsPopup select {
+            width: 80%;
+            height: 40px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            padding-left: 5px;
+            margin-left: 25px;
+        }
+
+            .settingsPopup select:focus {
+                font-size: 10pt;
+            }
+
+        .settingsPopup option {
+            font-size: 10pt;
+        }
+
+        .settingsPopup .modal-content input#btnSettings, .settingsPopup .modal-content input#btnLogin, input#btnLocations {
+            white-space: nowrap;
+            width: 150px;
+            height: 40px;
+            display: block;
+            color: white;
+            background: #2FC79F;
+            border: none;
+            border-radius: 27pt;
+            font-size: 13pt;
+            margin: 0 auto;
+            -webkit-appearance: none;
+        }
+
+        .settingsPopup p, .alertBox p, .errorBox p {
+            font-size: 11pt;
+        }
+
+    .alertBox {
+        position: absolute;
+        top: 70%;
+        margin: -159px auto;
+        left: 0;
+        right: 0;
+        background: none;
+        padding: 0px;
+        box-shadow: none;
+        z-index: 99;
+    }
+
+        .alertBox .modal-content {
+            margin: auto;
+            width: 70%;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .alertBox input[type=submit] {
+            text-align: center;
+            white-space: nowrap;
+            cursor: pointer;
+            height: 36px;
+            border: 1px solid #2FC79F;
+            border-radius: 20px;
+            box-shadow: none;
+            background: #2FC79F;
+            color: #fff;
+            min-width: 108px;
+            width: 20%;
+            margin: 0;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 0;
+            -webkit-appearance: none;
+            margin-right: 10px;
+        }
+
+        .alertBox h1 {
+            font-size: 20px;
+            text-align: center;
+            margin: -15px -15px 15px;
+            background: #f5f5f5;
+            color: #2FC79F;
+            padding: 12px 0 12px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+    .errorBox {
+        position: absolute;
+        top: 70%;
+        margin: -159px auto;
+        left: 0;
+        right: 0;
+        background: none;
+        padding: 0px;
+        box-shadow: none;
+        z-index: 99;
+    }
+
+        .errorBox .modal-content {
+            margin: auto;
+            width: 40%;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .errorBox input[type=submit] {
+            text-align: center;
+            white-space: nowrap;
+            cursor: pointer;
+            height: 36px;
+            border: 1px solid red;
+            border-radius: 20px;
+            box-shadow: none;
+            background: red;
+            color: #fff;
+            min-width: 108px;
+            width: 20%;
+            margin: 0;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 0;
+            -webkit-appearance: none;
+        }
+
+        .errorBox h1 {
+            font-size: 20px;
+            text-align: center;
+            margin: -15px -15px 15px;
+            background: #f5f5f5;
+            color: red;
+            padding: 12px 0 12px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .errorBox p {
+            color: red;
+        }
+
+    .img-bg {
+        height: 320px;
+        max-height: 200px;
+        width: 60%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .divClass {
+        border: 3px solid #ecedf0;
+        padding: 15px;
+        background: #EBEBEB;
+        max-height: 200px;
+    }
+
+    .divClassAfter {
+        /*margin: 10px 10px;
+        border: 3px solid #ecedf0;
+        border-radius: 14px;
+        padding: 15px;
+        background-image: url(../img/retry.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        cursor: pointer;
+        max-height: 127px;*/
+        margin: 10px 10px;
+        border: 3px solid #ecedf0;
+        padding: 15px;
+        /*border-radius: 14px;
+        background-image: url(../img/add-icon.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        cursor: pointer;
+        max-height: 127px;*/
+        background: #EBEBEB;
+        min-height: 200px;
+    }
+
+    .imgPreview {
+        margin-top: 20px;
+        float: left;
+        margin-left: 20px;
+        max-height: 150px;
+        max-width: 200px;
+        height: 150px;
+        width: 200px;
+    }
+
+    .imgPreview-div {
+        float: left;
+        max-width: 60%;
+        max-height: 127px;
+    }
+
+        .imgPreview-div img {
+            max-width: 100%;
+            max-height: 127px;
+        }
+
+    /******************************************CSS for welcome screen************************************/
+    #divWelcome {
+        text-align: center;
+        background-image: url(../Images/Gradient@2x.png);
+        background-repeat: repeat;
+        height: 100vh;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        background-size: cover;
+        z-index: -9;
+    }
+
+    .content {
+        position: fixed;
+        top: 18px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        color: white;
+    }
+
+    #divWelcome img#imgLogo2 {
+        width: 190pt;
+    }
+
+    #divWelcome p {
+        margin: 30px 0 40px;
+        color: #979797;
+        font-weight: 300;
+        font-size: 11pt;
+    }
+
+    #divWelcome span {
+        color: #979797;
+        font-weight: 400;
+    }
+
+    #divWelcome button {
+        border-radius: 35px;
+        background-color: transparent;
+        width: 40%;
+        height: 50px;
+        bottom: 84px;
+        position: absolute;
+        right: 0;
+        color: #fff;
+        padding: 0;
+        border: 2px solid #fff;
+    }
+
+        #divWelcome button:focus {
+            outline: none;
+        }
+
+
+    /********************************************CSS for login screen**********************************/
+    #divLogin {
+        text-align: center;
+        text-align: center;
+        background-image: url(../Images/home-bg.jpg);
+        max-height: 100vh;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        background-size: cover;
+        z-index: -9;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #divLoginMask h1 {
+        padding-top: 15px;
+        margin-bottom: -2px;
+    }
+
+    #divLogin button {
+        margin-top: 25px;
+        bottom: unset;
+    }
+
+    #divLoginMask .mt50 {
+        margin-top: 30px;
+    }
+
+    #divLogin input#btnLogin:focus {
+        outline: none;
+    }
+
+    #divLoginMask {
+        background-color: white !important;
+        height: 100vh;
+        margin: 19px 11px 0px;
+        border-radius: 7px 7px 0 0;
+        position: relative;
+    }
+
+    #divLogin input[type="email"]:focus {
+        border: none;
+    }
+
+    #divLogin a {
+        float: right;
+        margin-right: 32px;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #636363;
+    }
+
+    #divLogin input[type="text"] {
+        text-indent: 44px;
+        height: 40px;
+        width: 281px;
+        margin: 10px -27px 9px -9px;
+        outline: 0;
+        font-style: italic;
+        background-size: 20px;
+        border-top: 1px solid #C9C9C9;
+        padding-top: 21px;
+        color: #B8B8B8;
+    }
+
+    .material-icons {
+        font-size: 16px;
+    }
+
+    /***************************************CSS for consent screen************************************/
+    #divConsent {
+        text-align: center;
+        /* background-image: url(../Images/home-bg.jpg);*/
+        height: 100vh;
+        /*position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        width: 100vw;*/
+        background-size: cover;
+        z-index: -9;
+    }
+
+    #divConditions {
+        background-color: white !important;
+        margin: 102px auto;
+        border-radius: 7px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: -60px;
+        width: 70%;
+    }
+
+        #divConditions p {
+            font-size: 12pt;
+            text-align: justify;
+            margin-top: 20px;
+            margin-left: 0px;
+            /*padding: 0 17px 0 25px;*/
+            padding: 0 27px 0 57px;
+            display: inline-block;
+            color: #4A4A4A;
+        }
+
+    input[type="checkbox"] {
+        float: left;
+        margin-right: 15px;
+        margin-top: -7px;
+        width: 23px;
+        height: 40px;
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 20px;
+        margin-left: 20px;
+        background-color: white;
+        border: 1px solid #2FC79F;
+    }
+
+    #divConditions a {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    #buttons {
+        text-align: center;
+        border-top: 1px solid darkgrey;
+        margin-top: 10px;
+    }
+
+
+    #btnStartProcess {
+        bottom: -27%;
+        margin-bottom: 3%;
+    }
+
+    #btnCapturePassportFront {
+        bottom: -16%;
+        margin-bottom: 3%;
+    }
+
+    #btnCancel {
+        height: 55px;
+        width: 140px;
+        background-color: #9B9B9B;
+        left: 17vh;
+        right: auto;
+        bottom: 20%;
+    }
+
+    #btnContinue {
+        height: 55px;
+        width: 140px;
+        right: 17vh;
+        left: auto;
+        bottom: 20%;
+    }
+
+
+    #divNotice h1 {
+        text-align: left;
+        margin-left: 21px;
+        margin-bottom: 0px;
+    }
+
+    #divNotice p {
+        text-align: justify;
+        padding: 0 6% 0;
+        margin-top: 0;
+        margin-bottom: 5%;
+        color: #6A6A6A;
+    }
+
+    #btnCloseNotice {
+        height: 20px;
+        float: right;
+        margin-top: -32px;
+        margin-right: 33px;
+    }
+
+    .longLine {
+        width: 90%;
+        margin-left: 22px;
+    }
+
+    #divNotice {
+        background: #fff;
+        padding: 1% 4%;
+        position: relative;
+        margin: 0;
+        height: 98vh;
+    }
+
+        #divNotice #btnCloseNotice {
+            top: 9%;
+            right: 0%;
+            position: absolute;
+            margin-top: -24px;
+            margin-right: 33px;
+            width: 20px;
+        }
+
+        #divNotice .mt60 {
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        #divNotice .acceptDesclineDiv {
+            width: 100%;
+            position: fixed;
+            bottom: 13%;
+            left: 0;
+        }
+
+        #divNotice .consentDiv {
+            height: auto;
+            overflow-y: auto;
+            max-height: 65vh;
+        }
+
+        #divNotice .consentCheck {
+            padding: 1% 10%;
+        }
+
+            #divNotice .consentCheck .checkbox_div {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+                #divNotice .consentCheck .checkbox_div input {
+                    position: initial;
+                    float: none;
+                    margin-left: 0;
+                    width: 17px;
+                    height: 40px;
+                    margin-top: -10px;
+                    margin-right: 5px;
+                }
+
+            #divNotice .consentCheck .checkbox_text {
+                display: inline-block;
+                width: 85%;
+                text-align: justify;
+                color: #6A6A6A;
+                font-size: 11pt;
+            }
+
+    .longLine_hr {
+        border-top-color: #eee;
+        border-bottom-color: white;
+    }
+
+    #divNotice h1 {
+        color: #2FC79F !important;
+        font-size: 15pt;
+        font-weight: 500;
+    }
+
+    /**************************************CSS for Welcome screen*************************************/
+    #divStart {
+        margin-top: 25px;
+    }
+
+        #divStart h1 {
+            margin-bottom: 20px;
+        }
+
+            #divStart h1:after {
+                content: "";
+                display: block;
+                width: 35px;
+                height: 1px;
+                background-color: #8B8B8B;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+
+        #divStart p {
+            margin: 0;
+            font-weight: 500;
+            padding-top: 5px;
+        }
+
+        #divStart span {
+            text-align: justify;
+        }
+
+    /* #divStart button {
+            bottom: -120px;
+            margin-bottom: 20px;
+            position: unset;
+        }*/
+
+    .infoIcon {
+        text-align: right;
+        margin-right: 30px;
+        margin-top: -10px;
+    }
+
+        .infoIcon img {
+            height: 30px;
+        }
+
+    /*steps*/
+    .steps-vr {
+        margin-bottom: 40px;
+        padding: 0 40px;
+        color: #636363;
+        font-family: Montserrat;
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: 300;
+        min-height: 45px;
+    }
+
+        .steps-vr i {
+            width: 45px;
+            padding-right: 20px;
+            float: left;
+            position: relative;
+        }
+
+            .steps-vr i:after {
+                content: url(../Images/Dashline2-v@3xV.png);
+                width: 3px;
+                position: absolute;
+                max-height: 36px;
+                overflow: hidden;
+                top: 50px;
+                text-align: center;
+                left: 20px;
+            }
+
+            .steps-vr i.active:after {
+                content: url(../Images/Dashline-V@3x.png);
+            }
+
+        .steps-vr.step2 {
+            margin-bottom: 32px;
+        }
+
+        .steps-vr.step4 i:after {
+            display: none;
+        }
+
+    /*--------horizontal steps---------*/
+    .steps-hr {
+        padding: 0 5px;
+        color: #636363;
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        min-height: 45px;
+        display: inline-block;
+    }
+
+        .steps-hr i {
+            width: 38px;
+            padding-right: 35px;
+            float: left;
+            position: relative;
+        }
+
+            .steps-hr i:after {
+                content: '';
+                background-image: url(../Images/DashLine2@2x.png);
+                position: absolute;
+                max-width: 38px;
+                overflow: hidden;
+                text-align: center;
+                height: 3px;
+                width: 38px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                z-index: 0;
+                top: 17px;
+                left: 45px;
+            }
+
+            .steps-hr i.active:after {
+                background-image: url(../Images/DashLine2@2x.png);
+            }
+
+            .steps-hr i.passed:after {
+                background-image: url(../Images/DashLine@2x.png);
+                /*opacity: 0.5;*/
+            }
+
+        .steps-hr.step4 i {
+            padding-right: 0px;
+        }
+
+            .steps-hr.step4 i:after {
+                display: none;
+            }
+
+    .small-img {
+        width: 120px;
+    }
+
+    #divDocUpload .steps-hr i img {
+        margin-top: 0px !important;
+    }
+
+    .steps-hr i.passed img {
+        /*opacity: 0.5;*/
+    }
+    /*--------horizontal steps ends---------*/
+
+    /***************************************CSS for Document selection screen******************************/
+    #documentDiv {
+        position: fixed;
+        bottom: -5px;
+        border: 1px solid #D4D9DF;
+        border-radius: 9px 9px 0 0;
+        margin: 6px auto;
+        background-color: white;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        width: 70%;
+    }
+
+    #documentDivMain {
+        position: fixed;
+    }
+
+    #divDocumentType {
+        background: none;
+    }
+
+        #divDocumentType .input-box {
+            width: 100px;
+            text-align: center;
+            margin-right: -10px;
+        }
+
+        #divDocumentType span {
+            text-align: left;
+            width: 100%;
+            box-sizing: border-box;
+            min-height: 100%;
+            font-size: 16px;
+            color: #636363;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+    input#btnLicense {
+        width: 50px;
+    }
+
+    input#btnPassport, input#id2 {
+        height: 50px;
+    }
+
+    .width33 {
+        font-size: 10pt;
+        display: table;
+        padding: 10px 2px 5px;
+        border-top: 1px solid #D4D9DF !important;
+    }
+
+        .width33 span {
+            display: block;
+            text-align: center;
+            position: relative;
+        }
+
+    #divCancel p, #documentDiv p {
+        font-weight: bold;
+        color: #4A90E2;
+        padding: 10px;
+        font-size: 11pt;
+    }
+
+    #divCancel {
+        border-top: 1px solid #D4D9DF !important;
+    }
+
+    #imgIDType {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 118px;
+        margin: -8px auto;
+        height: 50px;
+    }
+
+    #divLocation {
+        margin-bottom: 10px;
+    }
+
+    #licenses {
+        padding: 10px 0px 20px;
+    }
+
+    .capture-button {
+        right: unset;
+        margin-left: 120px;
+    }
+
+    .proceed-button {
+        left: unset;
+        margin-right: 120px;
+        margin-bottom: 3%;
+    }
+    /*********************************************CSS for document div start********************************/
+    #divDocUpload, #divSelfieTutorial {
+        text-align: center;
+        font-size: 17pt;
+        margin-top: 20px;
+    }
+
+        #divDocUpload img, #divSelfieTutorial img {
+            /*margin-top: 10px;*/
+        }
+
+        #divDocUpload p, #divSelfieTutorial p {
+            position: absolute;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 300px;
+        }
+
+        #divDocUpload button {
+            bottom: -5px;
+            margin-bottom: 20px !important;
+        }
+    /*********************************************CSS for document upload screen****************************/
+    #divDocumentUpload span {
+        font-weight: normal;
+        color: #6D7074;
+        margin-top: 35px;
+        font-size: 20px;
+        padding: 0 22px;
+        display: inline-block;
+    }
+
+    #divDocumentUpload p {
+        font-size: 100%;
+        padding: 0 10% 10%;
+        margin: 5% 0;
+    }
+
+
+    .main-outer-div {
+        background: #F9F9F9;
+        /*margin-top: 90px;*/
+        padding-bottom: 3px;
+        border-bottom: 1px solid #D1D1D1;
+    }
+
+    .innerDiv {
+        background: #F3F3F3;
+        height: 200px;
+        border-radius: 7px;
+        border: 2px solid white;
+    }
+
+    #divDocumentUpload button {
+        position: absolute;
+        bottom: -40%;
+    }
+
+    #divLicense #btnShowLicenseBack {
+        margin-bottom: 0%;
+    }
+
+    #divLicense #btnCaptureLicenseBack {
+        bottom: -35%;
+    }
+
+    #passport, #passportFlash, #license, #licenseBack, #licenseFlash {
+        /*margin-top: 34px;*/
+        display: inline-block;
+        padding: 5px 35px;
+        /*font-size: 11pt;*/
+    }
+
+    #selfieReview {
+        font-size: 16pt;
+        padding: 0 10%;
+        margin: 5% 0;
+    }
+
+    .side-Indicator {
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        padding: 5px;
+        width: 30%;
+        height: 30px;
+        left: 0;
+        right: 0;
+        margin: 11px auto;
+        background-color: #fff;
+    }
+
+    .active-side {
+        background: #2FC79F;
+        border-radius: 25px;
+        height: 30px;
+        width: 50%;
+        padding: 0px;
+        color: white;
+        float: left;
+        line-height: 32px;
+        box-shadow: 0 2px 6px #a29999;
+    }
+
+    .inactive-side {
+        background-color: transparent;
+        border-radius: 25px;
+        height: 30px;
+        width: 50%;
+        padding: 0px;
+        color: #6D7074;
+        float: left;
+        line-height: 32px;
+    }
+
+    #imgCamIcon, #imgCamIcon2, #imgCamIcon3 {
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    #imgCamIcon1, #imgCamIcon4 {
+        height: 60px;
+        margin-top: 65px;
+        margin-left: 50px;
+    }
+
+    #imgCamIcon5 {
+        height: 60px;
+        margin-top: 93px;
+    }
+
+    #imgFlashIcon, #imgFlashIcon1 {
+        float: right;
+        margin-top: 16px;
+        margin-right: 10px;
+        height: 32px;
+    }
+
+    .user-image {
+        max-height: 200px;
+        margin: 0 auto;
+    }
+
+    #divDocUpload {
+        margin-top: 20px;
+    }
+
+    #divPassport .side-Indicator {
+        width: 20%;
+    }
+
+    #divPassport .active-side {
+        width: 100%;
+    }
+
+    .tile {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .tab-pane {
+        padding: 15px;
+        height: 80px;
+    }
+
+    .nav-tabs {
+        position: relative;
+        border: none !important;
+        background-color: #fff;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+        display: inline-block;
+        border-radius: 20px;
+    }
+
+        .nav-tabs > li {
+            float: left;
+            position: relative;
+            display: block;
+        }
+
+    .nav {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .tab-content > .tab-pane {
+        display: none;
+    }
+
+    .tab-content > .active {
+        display: block;
+    }
+
+    .nav-tabs li {
+        margin: 0px;
+    }
+
+        .nav-tabs li a {
+            position: relative;
+            padding: 11px 27px !important;
+            font-size: 16px;
+            border: none !important;
+            color: #333;
+            margin: 0 4px;
+            display: inline-block;
+            min-width: 51px;
+            text-decoration: none;
+        }
+
+    .nav-tabs a:hover {
+        background-color: #fff !important;
+        border: none;
+    }
+
+    .slider {
+        display: inline-block;
+        width: 102px !important;
+        height: 33px;
+        border-radius: 22px;
+        background-color: #2FC79F;
+        position: absolute;
+        z-index: 1;
+        bottom: 2px;
+        transition: all .4s linear;
+        margin: 0 6px;
+        top: 4px;
+    }
+
+    .nav-tabs .active a {
+        background-color: transparent !important;
+        border: none !important;
+        color: #fff !important;
+        z-index: 9;
+    }
+    /*********************************************CSS for take selfie screen********************************/
+    #captureSelfie p {
+        font-size: 16pt;
+    }
+
+    .selfie-inner-div {
+        background: #F3F3F3;
+        height: 248px;
+        border-radius: 7px;
+        border: 2px solid white;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #btnSkipSelfie {
+        background: #D1D1D1;
+        bottom: -40px;
+        margin-bottom: 3%;
+    }
+
+    #btnContinueSelfie {
+        bottom: -109px;
+        margin: 0 auto 10px;
+    }
+
+    .selfieDivClass {
+        border: 3px solid #ecedf0;
+        padding: 15px;
+        background: #EBEBEB;
+    }
+
+    #btnSelfieProceed {
+        bottom: -140px;
+        margin-bottom: 15px !important;
+    }
+
+    #ios_button_span {
+        position: absolute;
+        bottom: 22%;
+        left: 0px;
+        right: 0px;
+    }
+    /*********************************************CSS for selfie review screen******************************/
+    #divReviewSelfie {
+        text-align: center;
+    }
+
+    #processSelfie h1 {
+        margin-bottom: 50px;
+    }
+
+    #imgCapturedSelfie {
+        height: 264px;
+        border-radius: 50%;
+        margin: 20px auto;
+        width: 30%;
+    }
+    /*#btnRetakeSelfie {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -42px;
+        text-decoration: unset;
+        color: #2FC79F;
+    }*/
+    #btnProceedSelfie, #btnRetakeSelfie {
+        bottom: -42%;
+        margin-bottom: 3%;
+    }
+
+    /******************************************CSS for phone number screen***********************************/
+    #divSendConfirmCode h1 {
+        margin-bottom: 30px;
+    }
+
+    #divSendConfirmCode .mt100 {
+        margin-top: 0px;
+    }
+
+    #divSendConfirmCode input[type='text'] {
+        text-align: center;
+        border: 1px solid #979797;
+        border-radius: 28px;
+        height: 50px;
+        text-indent: 0;
+    }
+
+    #divSendConfirmCode p {
+        padding: 20PX 22px;
+    }
+
+    #divSendConfirmCode select {
+        font-size: 12px;
+    }
+
+    #divSendConfirmCode .submit-btn {
+        margin-top: 195px;
+    }
+
+    #btnSkipCode {
+        width: 30%;
+        height: 50px;
+        display: block;
+        color: white;
+        background: #D1D1D1;
+        border: none;
+        border-radius: 27pt;
+        font-size: 15pt;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 119px;
+        -webkit-appearance: none;
+    }
+    /******************************************CSS for verification code screen******************************/
+    #divConfirmCode p {
+        padding: 20PX 22px;
+    }
+
+    #divConfirmCode a {
+        margin: 0 auto;
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        bottom: 120px;
+        text-decoration: unset;
+        color: #2FC79F;
+    }
+
+    #divConfirmCode .mt100 {
+        margin-top: 0px;
+    }
+
+    #divConfirmCode input[type='number'] {
+        text-align: center;
+        letter-spacing: 10px;
+    }
+
+    #divConfirmCode input[type='text'] {
+        text-align: center;
+        letter-spacing: 10px;
+        border: 1px solid #979797;
+        border-radius: 28px;
+        height: 45px;
+        text-indent: 0;
+    }
+
+    .submit-btn {
+        margin-top: 175px;
+    }
+
+    .footer {
+        position: relative;
+        bottom: unset;
+        margin-top: 100px;
+    }
+
+    #divConfirmCode .submit-btn {
+        margin-top: 195px;
+    }
+    /*****************************************CSS for processing screen*************************************/
+    .child-div-active {
+        background: #2FC79F;
+        height: 55px;
+        color: white !important;
+        margin: 0 120px 30px;
+        text-align: left;
+    }
+
+        .child-div-active p {
+            color: white;
+            padding: 19px;
+        }
+
+    .child-div-inactive {
+        background: #D9D9D9;
+        height: 55px;
+        color: white !important;
+        margin: 0 120px 30px;
+        text-align: left;
+    }
+
+        .child-div-inactive p {
+            color: white;
+            position: absolute;
+            padding: 11px 19px;
+            min-width: 250px;
+        }
+
+    .child-div-half-active {
+        /*background: #2FC79F;*/
+        background: url('../Images/gif-load.gif');
+        height: 55px;
+        color: white !important;
+        margin: 0 90px 0 0;
+        text-align: left;
+    }
+
+        .child-div-half-active p {
+            color: white;
+            padding: 19px;
+        }
+
+    #imgProcessing {
+        margin-top: 19px;
+        margin-bottom: 40px;
+        height: 50px;
+    }
+
+    #imgCheck {
+        float: right;
+        margin-top: -43px;
+        margin-right: 13px;
+        height: 15px;
+    }
+
+    .mt60 {
+        margin-top: 60px;
+    }
+
+    #divProcessToken p {
+        /*margin: -14px;*/
+    }
+
+    .processToken p {
+        font-size: 11pt;
+    }
+    /*****************************************CSS for results screen****************************************/
+    #divResults {
+        text-align: center;
+        margin-top: 10px;
+        overflow-y: auto;
+        height: 100vh;
+    }
+
+        #divResults .mt50 {
+            margin-top: 25px;
+        }
+
+        #divResults h5 {
+            text-align: center;
+            color: grey;
+            margin-top: 14px;
+            margin-bottom: 10px;
+        }
+
+        #divResults span {
+            font-weight: normal;
+            text-align: center;
+            color: #37B81A;
+            font-size: 12pt;
+            letter-spacing: 4px;
+        }
+
+    #resultContent img {
+        height: 40px;
+        margin-top: -25px;
+    }
+
+    #transMessage {
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    #btnViewDetails {
+        bottom: 66px;
+    }
+
+    #btnDone {
+        background-color: transparent;
+        bottom: 4px;
+        position: fixed;
+        font-size: 15pt;
+        color: #2FC79F;
+        padding: 0;
+        border: 1px solid #2FC79F;
+        margin-bottom: 4px;
+    }
+
+    .transactionId {
+        border-radius: 10px;
+        height: 74px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #EAFFE6;
+        padding: 5px;
+        width: 60%;
+    }
+
+        .transactionId h5 {
+            margin-top: 10px;
+        }
+
+    #btnRetry {
+        bottom: 7px;
+    }
+
+    #divResults p {
+        font-size: 10pt;
+    }
+
+    #divTransactionId {
+        margin-top: -25px;
+    }
+
+    .short-line {
+        margin-top: -8px;
+    }
+    /*****************************************CSS for transaction details screen****************************************/
+    #imgSegmentName {
+        width: 100px;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        right: 0;
+        margin: -10px auto;
+    }
+
+    .transaction {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 170px;
+        font-weight: 600;
+        color: #2FC79F;
+        text-align: center;
+    }
+
+    .transaction-details {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 154px;
+        font-weight: 600;
+        color: #2FC79F;
+        text-align: center;
+    }
+
+    .details {
+        position: relative;
+        top: 180px;
+        left: 0;
+        right: 0;
+        margin: 7px 35px;
+        border-top: 1px solid #D4D9DF !important;
+    }
+
+    #divTransactionDetails button {
+        bottom: -200px;
+        position: relative;
+        margin-bottom: 20px;
+        width: 35%;
+        background: #2FC79F url(../Images/refresh.png) 26px 17px no-repeat;
+        padding-left: 26px;
+    }
+
+    .details:last-child {
+        border-bottom: 1px solid #D4D9DF !important;
+    }
+
+    .details p {
+        text-align: left;
+        margin: 15px 20px 4px;
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    .details span {
+        text-align: left;
+        display: block;
+        font-size: 12px;
+    }
+
+        .details span:last-child {
+            margin-bottom: 15px;
+        }
+
+        .details span:after {
+            content: '';
+            background: url(../Images/play-symbol.png) center center no-repeat;
+            background-size: 60%;
+            height: 52px;
+            width: 24px;
+            display: block;
+            position: absolute;
+            right: 12px;
+            top: 15px;
+        }
+
+    .data-details {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+        .data-details p {
+            width: 50%;
+            float: left;
+        }
+
+            .data-details p.text-right {
+                text-align: right;
+                font-weight: bold;
+            }
+
+            .data-details p.text-left {
+                text-align: left;
+            }
+
+    .img-result {
+        float: left;
+        width: 40px;
+        margin-left: 10px;
+        margin-top: 18px;
+        margin-right: 20px;
+    }
+
+    #imgDocFront, #imgDocBack {
+        height: 180px;
+        margin: 40px 0 0 0;
+    }
+
+    .selfie-circle {
+        margin: 0 auto 80px;
+        border: 4px solid #2FC79F;
+        border-radius: 50%;
+        height: 120px;
+        width: 120px;
+        position: relative;
+        box-sizing: border-box;
+        line-height: 50px;
+        margin-top: -20px;
+    }
+
+        .selfie-circle p {
+            font-size: 50px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -28px;
+        }
+
+        .selfie-circle span {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 63px;
+        }
+
+    .img-selfie-right {
+        height: 150px;
+        max-height: 200px;
+    }
+
+    .img-doc-left {
+        height: 150px;
+        max-height: 200px;
+    }
+
+    .w50 {
+        width: 50%;
+        padding: 30px;
+        box-sizing: border-box;
+        float: left;
+    }
+
+        .w50 p {
+            color: #2FC79F;
+        }
+
+    .checkbox-img {
+        display: block;
+        position: relative;
+        /*padding-bottom: 20px;*/
+    }
+
+        .checkbox-img img {
+            border: 1px solid #87fe00;
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            padding: 7px;
+            margin: 0 auto;
+            left: 50%;
+            top: 0%;
+            display: inline-block;
+            transform: translate(-50%, -50%);
+        }
+
+    #selfieMatchScore {
+        font-size: 15pt;
+        color: #37B81A;
+    }
+
+        #selfieMatchScore span {
+            font-size: 12pt;
+            color: #2FC79F;
+        }
+
+    .selfie-details-div {
+        background: #F3F3F3;
+        height: 250px;
+        width: 100%;
+    }
+
+    #divSelfieDetails button {
+        bottom: -90px;
+    }
+
+    .details-div {
+        background: #F3F3F3;
+        height: 290px;
+        width: 100%;
+    }
+
+    #divDocDetails button {
+        bottom: -90px;
+    }
+
+    #divDocDetails p {
+        font-size: 16pt;
+        color: #37B81a;
+    }
+
+    #divRecDetails button {
+        bottom: -270px;
+    }
+
+    /********************************************New Results Screen*********************************************/
+    #divResultScreen {
+        text-align: center;
+        margin-top: 30px;
+        height: 92vh;
+    }
+
+    .oval-main {
+        box-sizing: border-box;
+        height: 174.5px;
+        width: 174.5px;
+        /*border: 0.5px dashed #4A90E2;*/
+        border-radius: 50%;
+        margin: 5px auto;
+    }
+
+    .oval-2 {
+        box-sizing: border-box;
+        height: 155px;
+        width: 155px;
+        /*border: 1px solid #4A90E2;*/
+        border-radius: 50%;
+        margin: 9px auto;
+    }
+
+    .oval-3 {
+        box-sizing: border-box;
+        height: 143px;
+        width: 143px;
+        /*border: 7px solid #4A90E2;*/
+        border-radius: 50%;
+        margin: 5px auto;
+    }
+
+        .oval-3 p {
+            height: 50px;
+            width: 98px;
+            color: #000000;
+            font-family: Montserrat;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+            margin: 40px auto;
+        }
+
+    .transactionid-block {
+        border-top: 0.5px solid #DBDBDB;
+        border-bottom: 0.5px solid #DBDBDB;
+        margin: 25px 100px 0;
+    }
+
+        .transactionid-block p {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .transactionid-block span {
+            color: #2FC79F;
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -0.66px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+    #btnFinishProcess {
+        height: 55px;
+        width: 250px;
+    }
+
+    #divMiscDetails button {
+        bottom: -90px;
+    }
+
+    #btnRestartProcess {
+        height: 55px;
+        width: 140px;
+        background-color: #9B9B9B;
+        left: 24vh;
+        right: auto;
+        bottom: -38%;
+        margin-bottom: 2%;
+    }
+
+    #btnRescanProcess {
+        height: 55px;
+        width: 140px;
+        right: 24vh;
+        left: auto;
+        bottom: -38%;
+        margin-bottom: 2%;
+    }
+
+    #segmentMessage {
+        font-size: 14px;
+        margin-top: 20px;
+        color: #4A4A4A;
+        padding: 0 10%
+    }
+
+    #btnYes {
+        height: 80px;
+        width: 50%;
+        float: left;
+        border: none;
+        border-top: 1px solid darkgrey;
+        background: white;
+        font-weight: bold;
+        color: #9B9B9B;
+        position: static;
+        border-radius: 0;
+    }
+
+    #btnNo {
+        height: 80px;
+        width: 50%;
+        float: left;
+        border: none;
+        background: white;
+        font-weight: bold;
+        color: #9B9B9B;
+        position: static;
+        border-radius: 0;
+        border-left: 1px solid darkgrey;
+        border-top: 1px solid darkgrey;
+    }
+
+    #divConfirmReprocess {
+        background-color: white !important;
+        margin: 42px 58px 0;
+        border-radius: 7px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: -15px;
+        z-index: 99;
+    }
+
+        #divConfirmReprocess p {
+            padding: 40px 51px;
+            text-align: center;
+            font-size: 12pt;
+        }
+
+    .bar-effect {
+        position: relative;
+        background-color: #2FC79F;
+        z-index: 2;
+        height: 100%;
+        transition-duration: 3s;
+    }
+}

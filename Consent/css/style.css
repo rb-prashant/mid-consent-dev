@@ -1,0 +1,27 @@
+﻿.navbar-default .navbar-nav > .active > a {
+    border-color: rgb(0, 40, 91);
+    background-color: rgb(238, 238, 238);
+}
+
+.navbar-default .navbar-nav .active-trail {
+    border-color: rgb(0, 40, 91);
+    background-color: rgb(238, 238, 238);
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+    border-color: rgb(0, 40, 91);
+    background-color: rgb(238, 238, 238);
+}
+
+.navbar-default .navbar-nav > .active > a:focus {
+    border-color: rgb(0, 40, 91);
+    background-color: rgb(238, 238, 238);
+}
+
+.ui-datepicker {
+    background: rgb(239, 239, 239);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+
